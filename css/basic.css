@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: DM Sans, DM Sans-Medium;
+    /* font-family: Helvetica, arial, sans-serif !important; */
+}
+html,body{
+    margin: 0 auto;
+    height: 100%;
+    font-size: calc(100vw / 375 * 100);
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+}
+ul, ol, li {
+    list-style: none;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+ul,
+ol,
+li {
+    list-style: none
+}
+
+img {
+    display: block;
+    width: 100%;
+    border: 0
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+a,
+a:active,
+button,
+button:active,
+input,
+span,
+textarea,
+select {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+button {
+    background: 0;
+    border: 0
+}
+
+em{font-style: normal;}
+
